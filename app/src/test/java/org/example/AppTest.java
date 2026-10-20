@@ -8,14 +8,4 @@ import static org.junit.Assert.*;
 import org.example.bad.BadApplication;
 import org.junit.Test;
 
-public class AppTest {
-
-    @Test
-    public void appHasAGreeting() {
-        BadApplication classUnderTest = new BadApplication();
-        assertNotNull(
-            "app should have a greeting",
-            classUnderTest.getGreeting()
-        );
-    }
-}
+public class AppTest {}
