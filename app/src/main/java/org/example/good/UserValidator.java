@@ -1,5 +1,8 @@
 package org.example.good;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class UserValidator {
 
     public void ValidateEmail(String email) {

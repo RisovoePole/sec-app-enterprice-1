@@ -1,7 +1,9 @@
 package org.example.good;
 
 import org.example.good.ConsoleTicketRepository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class SupportService {
 
     public TicketRepository repository;
